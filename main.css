@@ -1,0 +1,437 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-left:0;
+}
+
+.logo-header {
+  margin:0;
+  width:60%;
+}
+
+.logo-header img {
+  margin: 0;
+  max-width: 100%;
+  height: 100px;
+}
+
+.header-nav {
+  position:absolute; top: 0px; right: 5px;
+  background-image: url(http://unseenhimalayas.com/wp-content/themes/byt/images/themes/orange/bgr/ribbon-long.png);
+  background-position-x: 100%;
+  background-position-y: 100%;
+  min-height:140px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  width:100px;
+}
+
+.header-nav ul {
+  padding:0;
+  text-align:center;
+}
+
+.header-nav ul > li {
+  text-align: center;
+  border-bottom: 1px solid rgb(242, 107, 9);
+  width: 80%;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.header-nav ul > li > a {
+  font-size: 14px;
+  text-align: center;
+}
+
+.header-nav ul > li > a:visited {
+  color: white;
+}
+
+.header-nav ul li a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.header-nav ul li a:hover {
+  color: green;
+}
+
+.header-input form {
+  margin-left: 5%;
+}
+
+.header-input .input-style-header {
+  width: 150px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.header-input .submit-style-header {
+  background-color: orange;
+  border: 1px solid rgb(242, 107, 9);
+  border-radius: 13px;
+  padding: 5px;
+}
+
+.header-phone-number strong {
+  color: rgb(242, 107, 9);
+  margin-left: 10px;
+}
+
+.main-logo-header {
+  font-family: 'Sofia';
+  position: absolute;
+  top: 78px;
+  left: 45%;
+  font-size: 26px;
+  color: #cc4400;
+  display: none;
+}
+
+.contact-header {
+  display:none;
+}
+
+.page-nav .hamburger-menu {
+  max-width: 100%;
+  height: 40px;
+  background-color: #FFBF00;
+  position: relative;
+  border: 1px solid rgb(242, 107, 9);
+}
+
+.page-nav .hamburger-menu #hamburger {
+  background-color: inherit;
+  margin-left: 15px;
+  border: none;
+  padding: 0;
+}
+
+.page-nav .hamburger-menu #hamburger svg {
+  fill: #70201F;
+  height: 35px;
+  width: 35px;
+  padding: 0px;
+}
+
+.page-nav .hamburger-menu strong {
+  position: absolute;
+  top: 30%;
+  margin-left: 10px;
+}
+
+.page-nav #navigation-menu {
+  padding:0;
+  margin:0;
+  display:none;
+}
+
+.page-nav #navigation-menu li {
+  border-bottom: 2px solid rgb(242, 107, 9);
+  text-align: center;
+  background-color: orange;
+  display: block;
+}
+
+.page-nav #navigation-menu li > a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.page-nav #navigation-menu li > a:hover {
+  color: green;
+}
+
+.width-section{
+  position:relative;
+}
+
+.column-container {
+  border: 2px solid brown;
+  width:200px;
+  display:none;
+}
+
+.column-film-style li {
+  list-style: circle;
+}
+
+.column-film-style li:hover {
+  color: green;
+}
+
+.article-film-introduction h1 {
+  font-size: 26px;
+  color: rgb(242, 107, 9);
+  text-align: center;
+}
+
+.article-film-introduction p {
+  text-align: center;
+}
+
+.article-film-description .article-film-headings h2 {
+  color: #FFBF00;
+  text-align: center;
+}
+
+.article-film-description .article-film-headings p {
+  text-align: center;
+}
+
+.article-film-description figure > img {
+  border-image-repeat: stretch;
+  width: 100%;
+}
+
+.article-film-description figure > figcaption {
+  font-size: 12px;
+  color: #c2c2d6;
+}
+
+.carrousel-contain {
+  height: 320px;
+  position: relative;
+  display: none;
+}
+
+.carrousel-contain .heading-content-image h2 {
+  text-align: center;
+  color: #FFBF00
+}
+
+.carrousel-contain .image-content {
+  margin: auto;
+  width: 210px;
+  perspective: 1000px;
+}
+
+.carrousel-contain .image-content .image-content-carrousel {
+  width: 100%;
+  position: absolute;
+  animation: rotate 56s infinite linear;
+  transform-style: preserve-3d;
+}
+
+.carrousel-contain .image-content .image-content-carrousel:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+.carrousel-contain .image-content .image-content-carrousel figure {
+  width: 100%;
+  height: 120px;
+  border: 1px solid #4d444d;
+  overflow: hidden;
+  position: absolute;
+}
+
+.image-content-carrousel figure:nth-child(1) {
+  transform: rotateY(0deg) translateZ(300px);
+}
+
+.image-content-carrousel figure:nth-child(2) {
+  transform: rotateY(40deg) translateZ(300px)
+}
+
+.image-content-carrousel figure:nth-child(3) {
+  transform: rotateY(80deg) translateZ(300px)
+}
+
+.image-content-carrousel figure:nth-child(4) {
+  transform: rotateY(120deg) translateZ(300px)
+}
+
+.image-content-carrousel figure:nth-child(5) {
+  transform: rotateY(160deg) translateZ(300px)
+}
+
+.image-content-carrousel figure:nth-child(6) {
+  transform: rotateY(200deg) translateZ(300px)
+}
+
+.image-content-carrousel figure:nth-child(7) {
+  transform: rotateY(240deg) translateZ(300px)
+}
+
+.image-content-carrousel figure:nth-child(8) {
+  transform: rotateY(280deg) translateZ(300px)
+}
+
+.image-content-carrousel figure:nth-child(9) {
+  transform: rotateY(320deg) translateZ(300px)
+}
+
+.carrousel-contain .image-content .image-content-carrousel .shadow-image-carrousel {
+  position: absolute;
+  box-shadow: 0px 0px 20px 0px #000;
+}
+
+.image-content-carrousel img {
+  image-rendering: auto;
+  transition: all 900ms;
+  width: 100%;
+  height: 100%;
+}
+
+.image-content-carrousel img:hover {
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+@keyframes rotate {
+  from {
+    transform:rotateY(0deg);
+  }
+  to {
+    transform:rotateY(360deg)
+  }
+}
+
+.style-promotion-heading {
+  color: rgb(255, 191, 0);
+  font-size: 20px;
+  text-align: center;
+}
+
+.icon svg {
+  height: 20px;
+  width: 20px;
+  margin-left: 50%;
+  animation: shrink 2s infinite;
+}
+
+@keyframes shrink {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+#counting-down-timer {
+  font-size:18px;
+  border:2px solid black;
+  padding:10px;
+  color: rgb(255, 191, 0);
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 25%;
+}
+
+.content-promotion {
+  position: relative;
+}
+
+.column-margins-promotion {
+  padding: 0;
+  position: relative;
+  width: 320px;
+  margin: auto;
+}
+
+.column-margins-promotion li {
+  margin-bottom: 35px;
+}
+
+.column-margins-promotion .background-column-color {
+  background-image: url(https://fashioncolors.pl/7837-large_default/pomaranczowy-fluo-.jpg);
+  height: 332px;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.column-margins-promotion .background-column-color .white-column-promotion {
+  height: 304px;
+  width: 92%;
+  z-index: 101;
+  position: relative;
+  top: 14px;
+  left: 14px;
+  background-color: white;
+}
+
+.column-margins-promotion .background-column-color .white-column-promotion .column-content-promotion h3 {
+  text-align: center;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  font-style: italic;
+  color: #FFBF00;
+}
+
+.column-margins-promotion .background-column-color .white-column-promotion .column-content-promotion h2 {
+  text-align: center;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  font-style: italic;
+  color: #FFBF00;
+}
+
+.dash-separation-style {
+  content: "";
+  width: 70px;
+  height: 1px;
+  margin: 10px auto 10px;
+  background-color: green;
+}
+
+.button-promotion-style {
+  background-color: #ed1b2e;
+  line-height: 41px;
+  width: 45%:
+}
+
+.button-promotion-style a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.button-promotion-style a:hover {
+  background-color: rgb(242, 107, 9);
+}
+
+.footer-background-color {
+  position: relative;
+  height: 450px;
+  background-color: rgb(255, 191, 0);
+  border: 1px solid rgb(242, 107, 9);
+}
+
+.footer-background-color .footer-contact-heading h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 40px;
+}
+
+.footer-background-color .footer-contact-description {
+  color: #fff;
+  text-align: center;
+}
+
+.footer-background-color .footer-contact-description a {
+  font-size: 22px;
+}
+.footer-background-color .footer-contact-description a:visited {
+  color: white;
+}
+
+.footer-media-contact {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.footer-media-contact .fa {
+  cursor: pointer;
+}

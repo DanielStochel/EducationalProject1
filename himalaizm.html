@@ -1,0 +1,337 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="slideshow.css">
+  <link rel="stylesheet" type="text/css" href="mediaqueries.css">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo-header">
+      <img src="http://unseenhimalayas.com/wp-content/uploads/2016/10/logo-unseen-Himalayas.png" alt="Main logo of this page">
+    </div>
+    <div class="header-nav">
+      <ul>
+        <li>
+          <a href="#"> Filmy</a>
+        </li>
+        <li>
+          <a href="#"> Aktualności</a>
+        </li>
+        <li>
+          <a href="#"> Wyprawy</a>
+        </li>
+      </ul>
+    </div>
+    <div class="header-input">
+      <form role="search">
+         <input class="input-style-header" type="search" name="q" placeholder="Search information" aria-label="Search through site content">
+         <input class="submit-style-header" type="submit" value="Go!">
+       </form>
+    </div>
+    <div class="header-phone-number">
+      <strong> Contact number +48 112 332 332</strong>
+    </div>
+    <div class="main-logo-header">
+      <strong> Wypożyczalnia filmów</strong>
+    </div>
+    <div class="contact-header">
+      <p> Znajdziesz nas </p>
+      <div class="icon-1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 293.649 293.649" >
+      <path  d="M252.469,153.155c-2.52-5.141-7.745-8.399-13.47-8.399h-35.347V15c0-8.284-6.716-15-15-15h-83.656c-8.284,0-15,6.716-15,15  v129.756H54.65c-5.725,0-10.95,3.259-13.47,8.399c-2.52,5.141-1.893,11.267,1.615,15.791L134.97,287.84  c2.841,3.665,7.218,5.81,11.855,5.81s9.014-2.145,11.854-5.81l92.175-118.894C254.362,164.422,254.989,158.296,252.469,153.155z" fill="#FFDA44"/>
+        </svg>
+      </div>
+      <div class="header-media-contact">
+        <i class="fa fa-facebook" style="font-size:25px"></i>
+        <i class="fa fa-snapchat" style="font-size:25px"></i>
+        <i class="fa fa-youtube" style="font-size:25px"></i>
+      </div>
+    </div>
+    <nav class="page-nav">
+      <div class="hamburger-menu">
+        <button type="button" title="menu-button" id="hamburger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 20">
+            <path id="Layer" class="hamburger-style-header" d="M0,2c0,-1.1 0.9,-2 2,-2h24c1.1,0 2,0.9 2,2c0,1.1 -0.9,2 -2,2h-24c-1.1,0 -2,-0.9 -2,-2zM28,10c0,1.1 -0.9,2 -2,2h-24c-1.1,0 -2,-0.9 -2,-2c0,-1.1 0.9,-2 2,-2h24c1.1,0 2,0.9 2,2zM28,18c0,1.1 -0.9,2 -2,2h-24c-1.1,0 -2,-0.9 -2,-2c0,-1.1 0.9,-2 2,-2h24c1.1,0 2,0.9 2,2z" />
+          </svg>
+        </button>
+      <strong> MENU</strong>
+      </div>
+      <ul id="navigation-menu">
+        <li> <a href=""> Strona główna</a>
+        </li>
+        <li> <a href="">Wypożyczalnia</a>
+        </li>
+        <li> <a href="">Serwis</a>
+        </li>
+        <li> <a href=""> Rzeczy do wspinaczki </a>
+        </li>
+        <li> <a href=""> kontakt </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="main-slider" id="main-slider">
+        <div class="slider-arrows previous-arrow" id="previous-arrow"></div>
+        <div class="slide-images slide-main-image" id="slide-image-1" data-position="1" style="right: 0">
+          <span class="main-slide-content">Szczyt - Everest</span>
+        </div>
+        <div class="slide-images" id="slide-image-2" data-positon="2" style="right: 100%">
+          <span class="main-slide-content">Szczyt - k2</span>
+        </div>
+        <div class="slide-images" id="slide-image-3" data-position="3" style="right: -100%">
+          <span class="main-slide-content">Szczyt - kanczendzonga</span>
+        </div>
+        <div class="slider-arrows next-arrow" id="next-arrow"></div>
+      </div>
+    </section>
+  </main>
+
+  <section>
+    <div class="width-section">
+      <article class="article-width">
+        <div class="article-film-introduction">
+          <h1> FILMY </h1>
+          <p>
+            Filmowe pojedynki człowieka z górą. Dramatyczne wyprawy na szczyt to popularny temat w kinie
+          </p>
+          <p> Przedstawiamy kilka zdjęć z topowych filmów o tematyce himalaizm.</p>
+        </div>
+        <div class="article-film-description">
+          <div class="article-film-headings">
+            <h2> Film - 127 godzin</h2>
+            <p>Film wyróżnia się na tle pozostałych, spektakularnych produkcji. Nie ma zapierających dech w piersiach ujęć, bo to tak naprawdę teatr jednego aktora - Jamesa Franco (nominowanego właśnie za tę rolę do Oscara). Aron Ralston wybrał się nie w Alpy czy Himalaje, ale w Góry Skaliste w Utah. Podczas wspinaczki głaz przygniótł mu rękę i nie może się wydostać. Rozpoczyna walkę o wyjście cało z tej beznadziejnej sytuacji. Co ważne, przedstawiona historia wydarzyła się naprawdę, co dodaje dramatyzmu filmowi.</p>
+          </div>
+            <figure>
+              <img src="http://cdn.natemat.pl/c143871532d79f097da5bef79e5e3296,780,0,0,0.jpg" alt="">
+              <figcaption>Kadr z filmu "127 godzin" (2010 r.)</figcaption>
+            </figure>
+          <div class="article-film-headings">
+            <h2>Film - Czekając na Joe</h2>
+            <p>Ta oparta na prawdziwych wydarzeniach z 1985 roku produkcja łączy dokument z fabułą. W filmie wypowiadają się prawdziwymi alpiniści, a ich opowieść przeplata się ze scenami granymi przez aktorów. Dwóch przyjaciół zamierza zdobyć szczyt Siula Grande (peruwiańskie Andy) od strony niezdobytego wcześniej szlaku zachodniego. Historia później się oczywiście komplikuje i jest co najmniej nieprawdopodobna. "Czekając na Joe" stawia też pytanie: co jest w stanie zrobić człowiek, by uniknąć śmierci?</p>
+          </div>
+            <figure>
+              <img src="http://cdn.natemat.pl/efedd35017e1127ae4c0fd046df8744d,780,0,0,0.jpg" alt="">
+              <figcaption>Kadr z filmu "Czekając na Joe" (2003 r.)</figcaption>
+            </figure>
+          <div class="article-film-headings">
+            <h2>Film - Everest</h2>
+            <p>Jak na Hollywood przystało - film zrobiony z rozmachem i pięknymi zdjęciami, w którym to faktycznie góra jest głównym bohaterem. Choć na ekranie przewija się wiele innych, ciekawych postaci, którym kibicujemy w zdobywaniu najwyższego szczytu świata. "Everest" jest inspirowany prawdziwymi wydarzeniami - opowiadao jednej z pierwszych komercyjnych ekspedycji na Mount Everest w 1996 roku.
+            </p>
+          </div>
+            <figure>
+              <img src="http://cdn.natemat.pl/ca69641aefb4d170c2e08c34960e840e,780,0,0,0.jpg" alt="">
+              <figcaption>Kadr z filmu "Everest" (2015 r.)</figcaption>
+            </figure>
+          <div class="article-film-headings">
+            <h2>Film - K2</h2>
+            <p>Najpopularniejszy górski film katastroficzny, który jest tak naprawdę... adaptacją sztuki teatralnej. K2 to drugi najwyższy szczyt w Himalajach (zaraz po Evereście), ale pierwszy pod wzglęadem stopnia trudności. Zdjęcia do filmu, z wiadomych względów, nei powstawały w pasmie Karakorum, ale w kanadyjskiej Kolumbii Brytyjskiej. Na ekranie widzimy Mount Wadding "w roli" K2. Ekipa i tak nie miała łatwo: panowała śnieżyca, minusowe temperatury, a w każdym momencie mogła spaść lawina.
+            </p>
+          </div>
+            <figure>
+              <img src="http://cdn.natemat.pl/78b68a3fbd10c7e93b86f36c6d5a55de,780,0,0,0.jpg" alt="">
+              <figcaption>Kadr z filmu "K2" (1991 r.)</figcaption>
+            </figure>
+        </div>
+      </article>
+      <div class="column-container">
+        <div class="heading-column-container">
+          <h3>Kategorie filmowe</h3>
+        </div>
+        <div class="column-content-films">
+          <h4>Filmy przygodowe</h4>
+          <ul class="column-film-style">
+            <li>Park Jurajski</li>
+            <li>Piraci z Karaibów</li>
+            <li>Władca Pierścieni</li>
+          </ul>
+          <h4>Seriale</h4>
+          <ul class="column-film-style">
+            <li>Lucyfer</li>
+            <li>Gra o tron</li>
+            <li>The walking dead</li>
+          </ul>
+          <h4>Filmy komediowe</h4>
+          <ul class="column-film-style">
+            <li>American Pie</li>
+            <li>Kac Vegas</li>
+            <li>Deadpool</li>
+          </ul>
+          <h4>Filmy kryminalne</h4>
+          <ul class="column-film-style">
+            <li>Leon Zawodowiec</li>
+            <li>Świadek oskarżenia</li>
+            <li>Koneser</li>
+          </ul>
+          <h4>Filmy fantastyczne</h4>
+          <ul class="column-film-style">
+            <li>Harry Potter</li>
+            <li>Opowieści z Narnii</li>
+            <li>Gwiezdny pył</li>
+          </ul>
+          <h4>filmy romantyczne</h4>
+          <ul class="column-film-style">
+            <li>Pretty Woman</li>
+            <li>Notting hill</li>
+            <li>To właśnie miłość</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="carrousel-contain">
+      <div class="heading-content-image">
+        <h2>Zdjęcia z wypraw</h2>
+      </div>
+      <div class="image-content">
+        <div class="image-content-carrousel">
+          <figure class="shadow-image-carrousel"><img src="http://wspinanie.pl/wp-content/uploads/2007/11/12goscie_festiwal_baranowska.jpg" alt=""></figure>
+          <figure class="shadow-image-carrousel"><img src="http://bi.gazeta.pl/im/fe/d9/15/z22909438V,Wspinacz-powinien-miec-silne-miesnie--mocne-sciegn.jpg" alt=""></figure>
+          <figure class="shadow-image-carrousel"><img src="http://cdn.natemat.pl/3414c9c5408f69c1701ae901d1f9ecef,780,0,0,0.jpg" alt=""></figure>
+          <figure class="shadow-image-carrousel"><img src="https://static2.s-trojmiasto.pl/zdj/c/n/9/2027/620x0/2027763-We-wtorek-6-marca-o-godz-19-w-auli-Uniwersytetu-Gdanskiego-Wydzial-Biologii.jpg" alt=""></figure>
+          <figure class="shadow-image-carrousel"><img src="https://d-pt.ppstatic.pl/kadry/k/r/1/82/71/55ed1cbe6445c_o,size,969x565,q,71,h,36550b.jpg" alt=""></figure>
+          <figure class="shadow-image-carrousel"><img src="http://4.s.dziennik.pl/pliki/4747000/4747923-maciej-berbeka-tomasz-kowalski-900-675.jpg" alt=""></figure>
+          <figure class="shadow-image-carrousel"><img src="https://www.goryonline.com/public/upload/Szopa/2017/lipiec/k2_gran.jpg" alt=""></figure>
+          <figure class="shadow-image-carrousel"><img src="http://pza.org.pl/wp-content/uploads/2017/07/K2_lato-2017_3.jpg" alt=""></figure>
+          <figure class="shadow-image-carrousel"><img src="https://d-nm.ppstatic.pl/k/r/55/67/4c6c2de20566a_o.jpg?1420066800" alt=""></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="style-promotion-heading">
+      <h1>Dział - Promocja</h1>
+    </div>
+    <div>
+      <p class="style-promotion-heading"> Wielkie promocje - Czas ograniczony, zegar poniżej !</p>
+      <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 293.649 293.649" >
+      <path  d="M252.469,153.155c-2.52-5.141-7.745-8.399-13.47-8.399h-35.347V15c0-8.284-6.716-15-15-15h-83.656c-8.284,0-15,6.716-15,15  v129.756H54.65c-5.725,0-10.95,3.259-13.47,8.399c-2.52,5.141-1.893,11.267,1.615,15.791L134.97,287.84  c2.841,3.665,7.218,5.81,11.855,5.81s9.014-2.145,11.854-5.81l92.175-118.894C254.362,164.422,254.989,158.296,252.469,153.155z" fill="#FFDA44"/>
+      </svg>
+      </div>
+      <p id="counting-down-timer"></p>
+    </div>
+    <div class="content-promotion">
+      <ul class="column-margins-promotion">
+        <li class="background-column-color">
+          <div class="white-column-promotion">
+            <div class="column-content-promotion">
+              <h2>Wypożyczalnia filmów</h2>
+              <div class="dash-separation-style"></div>
+              <h3>KARTA UPOMINKOWA</h3>
+              <h3>WYSYŁANA MAILEM</h3>
+              <div>
+                <p>Zrób niespodziankę tym, których kochasz i wyślij im prezent otwierający dostęp do świata filmów. Do wykorzystania wyłącznie w wypożyczalni.</p>
+              </div>
+              <div class="button-promotion-style">
+                <a href="#">KUP TERAZ</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="background-column-color">
+          <div class="white-column-promotion">
+            <div class="column-content-promotion">
+              <h2>Wypożyczalnia filmów</h2>
+              <div class="dash-separation-style"></div>
+              <h3>KARTA UPOMINKOWA</h3>
+              <h3>WYSYŁANA MAILEM</h3>
+              <div>
+                <p>Zrób niespodziankę tym, których kochasz i wyślij im prezent otwierający dostęp do świata filmów. Do wykorzystania wyłącznie w wypożyczalni.</p>
+              </div>
+              <div class="button-promotion-style">
+                <a href="#">KUP TERAZ</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="background-column-color">
+          <div class="white-column-promotion">
+            <div class="column-content-promotion">
+              <h2>Wypożyczalnia filmów</h2>
+              <div class="dash-separation-style"></div>
+              <h3>KARTA UPOMINKOWA</h3>
+              <h3>WYSYŁANA MAILEM</h3>
+              <div>
+                <p>Zrób niespodziankę tym, których kochasz i wyślij im prezent otwierający dostęp do świata filmów. Do wykorzystania wyłącznie w wypożyczalni.</p>
+              </div>
+              <div class="button-promotion-style">
+                <a href="#">KUP TERAZ</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="background-column-color">
+          <div class="white-column-promotion">
+            <div class="column-content-promotion">
+              <h2>Wypożyczalnia filmów</h2>
+              <div class="dash-separation-style"></div>
+              <h3>KARTA UPOMINKOWA</h3>
+              <h3>WYSYŁANA MAILEM</h3>
+              <div>
+                <p>Zrób niespodziankę tym, których kochasz i wyślij im prezent otwierający dostęp do świata filmów. Do wykorzystania wyłącznie w wypożyczalni.</p>
+              </div>
+              <div class="button-promotion-style">
+                <a href="#">KUP TERAZ</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-background-color">
+      <div class="footer-contact-heading">
+        <h1>Kontakt</h1>
+      </div>
+      <div class="footer-contact-description">
+        <p> Wszelkie zapytania i prośby o partnerstwo prosimy kierować pod adres E-mailowy, który jest podany poniżej</p>
+        <a href="#">himalayanguy@gmail.com</a>
+        <p> Również jesteśmy dostępni na profilach przedstawionych poniżej</p>
+      </div>
+      <div class="footer-media-contact">
+        <i class="fa fa-facebook" style="font-size:60px"></i>
+        <i class="fa fa-snapchat" style="font-size:60px"></i>
+        <i class="fa fa-youtube" style="font-size:60px"></i>
+      </div>
+    </div>
+  </footer>
+<script>
+  $(document).ready(function(){
+    $('#hamburger').click(function(){
+      $('#navigation-menu').stop().slideToggle(300);
+    });
+  });
+
+
+    window.sr = ScrollReveal();
+    sr.reveal('.dfsf', {
+        reset: true,
+        delay: 500,
+        distance: 0
+    });
+    sr.reveal('h1, h2, p', {
+        reset: true,
+        delay: 500
+    });
+
+</script>
+<script src="slider_support.js"></script>
+<script src="timer_support.js"></script>
+</body>
+</html>
