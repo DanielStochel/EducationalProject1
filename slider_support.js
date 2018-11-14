@@ -42,9 +42,7 @@ const sliderSupport = function () {
     })
 
     slider.addEventListener('mouseout', function() {
-      startSliderLoop = setInterval(function() {
-        sliderLoop('left');
-      }, sliderTimer)
+      startSliderLoop;
     })
   }
 

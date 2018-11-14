@@ -1,5 +1,5 @@
 
-var countDownDate = new Date("Aug 12, 2018 15:37:25").getTime();
+var countDownDate = new Date("Aug 12, 2019 15:37:25").getTime();
 let countingDownTimer = document.getElementById("counting-down-timer")
 
 // Update the count down every 1 second
