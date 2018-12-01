@@ -376,6 +376,10 @@ li {
   color: #FFBF00;
 }
 
+.column-margins-promotion .background-column-color .white-column-promotion .column-content-promotion .promotion-content-description {
+  text-align: center;
+}
+
 .dash-separation-style {
   content: "";
   width: 70px;
