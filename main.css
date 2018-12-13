@@ -185,14 +185,21 @@ li {
   text-align: center;
 }
 
+.article-film-description figure {
+  text-align: center;
+}
+
 .article-film-description figure > img {
   border-image-repeat: stretch;
-  width: 100%;
+  width: 90%;
+  margin-left: auto;
 }
 
 .article-film-description figure > figcaption {
   font-size: 12px;
   color: #c2c2d6;
+  width: 90%;
+  margin-right: 0px !important;
 }
 
 .carrousel-contain {
@@ -318,9 +325,8 @@ li {
 
 #counting-down-timer {
   font-size:18px;
-  border:2px solid black;
   padding:10px;
-  color: rgb(255, 191, 0);
+  color: red;
   width: 50%;
   text-align: center;
   position: relative;

@@ -33,7 +33,7 @@
   }
 
   .page-nav #navigation-menu {
-    display: flex;
+    display: flex !important;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
